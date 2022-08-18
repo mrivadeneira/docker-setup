@@ -1,4 +1,5 @@
 #! /bin/bash
+#uninstall old versions
 sudo apt-get remove docker docker-engine docker.io containerd runc;
 
 #update and install dependencies
